@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    border: none;
+}
+
+fieldset {
+    border: none;
+}
